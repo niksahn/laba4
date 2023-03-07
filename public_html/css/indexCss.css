@@ -1,0 +1,52 @@
+body{
+    background-color: #494287
+}
+
+div{
+    width: 70%;
+    border-radius: 10px;
+    background-color:  #f9f9f9;
+    margin: 0.5% auto ;
+    display: block;
+    font-size: 160%;
+    padding: 1%;
+    text-align: center;
+}
+
+#header{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center
+}
+
+#question {
+    width: 40%;
+    display: inline-block;
+    margin: 2px;
+}
+
+#answer {
+    width: 40%;
+    display: inline-block;
+    margin: 2px;
+    text-align: left;
+
+}
+#test{
+    background-color: #494287;
+    width: 100%;
+    display: flex;
+
+}
+input[type=button] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 1% ;
+    border: none;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    font-size: 100%;
+
+}
